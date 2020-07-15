@@ -1,0 +1,27 @@
+{
+  "name": "@statex-demo/shared-types",
+  "version": "0.0.1",
+  "description": "shared-types",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "module": "src/index.ts",
+  "repository": "",
+  "author": "",
+  "license": "MIT",
+  "publishConfig": {
+  },
+  "dependencies": {
+    "xstate": "^4.11.0"
+  },
+  "devDependencies": {
+  },
+  "peerDependencies": {
+    "xstate": "^4.11.0"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "start": "tsc -w --preserveWatchOutput"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "@statex-demo/demo",
+  "version": "0.0.1",
+  "description": "demo",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "module": "src/index.ts",
+  "repository": "",
+  "author": "",
+  "license": "MIT",
+  "publishConfig": {
+  },
+  "dependencies": {
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "@types/react": "16.9.43",
+    "@types/react-dom": "16.9.8",
+    "@statex-demo/shared-types": "*"
+  },
+  "devDependencies": {
+    "ts-loader": "6.2.1",
+    "webpack": "4.41.6",
+    "webpack-cli": "3.1.2",
+    "webpack-dev-server": "3.10.3"
+  },
+  "peerDependencies": {
+    "@statex-demo/shared-types": "*"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "watch": "webpack --config ./webpack.config.js --mode development",
+    "start": "webpack-dev-server",
+    "build": "webpack --config ./webpack.prod.js --mode production",
+    "start1": "tsc -w --preserveWatchOutput"
+  }
+}
