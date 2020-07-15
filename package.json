@@ -12,8 +12,9 @@
     "build": "yarn",
     "prepublishOnly": "npm run-script build",
     "start": "run-p start:*",
-    "start:demo": "lerna run start --stream --scope=@statex-demo/demo",
-    "start:watch": "tsc --build --watch"
+    "start:demo": "cd ./packages/demo && yarn start",
+    "-start:demo": "lerna run start --stream --scope=@statex-demo/demo",
+    "-start:watch": "tsc --build --watch"
   },
   "workspaces": [
     "packages/*"
