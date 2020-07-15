@@ -1,5 +1,5 @@
-import { ConstraintEvent } from "../core/constraints";
-import { inRange } from "../core/math";
+import { ConstraintEvent } from "@statex-demo/behavior-core";
+import { inRange } from "@statex-demo/math";
 
 export namespace Cpc {
   export const enum Guard {

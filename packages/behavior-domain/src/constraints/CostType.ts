@@ -1,9 +1,9 @@
-import { ConstraintEvent } from "../core/constraints";
-import { inRange } from "../core/math";
+import { ConstraintEvent } from "@statex-demo/behavior-core";
+import { inRange } from "@statex-demo/math";
 
-export namespace Subscribtion {
+export namespace CostType {
   export const enum Guard {
-    inRange = "subscribtionInRange",
+    inRange = "costTypeInRange",
   }
   export type Event = ConstraintEvent<{ subscribtion: number }>;
   export const Guards = {

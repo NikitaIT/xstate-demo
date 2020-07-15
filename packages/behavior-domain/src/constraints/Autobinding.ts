@@ -1,4 +1,4 @@
-import { ConstraintEvent } from "../core/constraints";
+import { ConstraintEvent } from "@statex-demo/behavior-core";
 
 export namespace Autobinding {
   export const enum Guard {

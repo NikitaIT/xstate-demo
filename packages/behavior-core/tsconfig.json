@@ -4,9 +4,5 @@
   "compilerOptions": {
     "outDir": "lib",
     "rootDir": "src"
-  },
-  "references": [
-    { "path": "../behavior-core" },
-    { "path": "../behavior-domain" }
-  ]
+  }
 }

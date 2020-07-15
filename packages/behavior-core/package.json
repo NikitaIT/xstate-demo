@@ -1,5 +1,5 @@
 {
-  "name": "@statex-demo/shared-types",
+  "name": "@statex-demo/behavior-core",
   "version": "0.0.1",
   "description": "shared-types",
   "main": "./lib/index.js",
@@ -11,11 +11,9 @@
   "publishConfig": {
   },
   "dependencies": {
-    "@statex-demo/behavior-core": "*",
-    "@statex-demo/behavior-domain": "*",
-    "xstate": "^4.11.0"
   },
   "devDependencies": {
+    "xstate": "^4.11.0"
   },
   "peerDependencies": {
     "xstate": "^4.11.0"

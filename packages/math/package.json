@@ -1,5 +1,5 @@
 {
-  "name": "@statex-demo/shared-types",
+  "name": "@statex-demo/math",
   "version": "0.0.1",
   "description": "shared-types",
   "main": "./lib/index.js",
@@ -11,14 +11,10 @@
   "publishConfig": {
   },
   "dependencies": {
-    "@statex-demo/behavior-core": "*",
-    "@statex-demo/behavior-domain": "*",
-    "xstate": "^4.11.0"
   },
   "devDependencies": {
   },
   "peerDependencies": {
-    "xstate": "^4.11.0"
   },
   "files": [
     "lib"

@@ -1,11 +1,13 @@
 import { createMachine, StateNodeConfig, StatesConfig } from "xstate";
-import { createConstraint } from "../core/constraints/createConstraint/createConstraint";
-import { Autobinding } from "../domain/Autobinding";
-import { CostType } from "../domain/CostType";
-import { Cpc } from "../domain/Cpc";
-import { Cpm } from "../domain/Cpm";
-import { Req } from "../domain/Req";
-import { Subscribtion } from "../domain/Subscribtion";
+import { createConstraint } from "@statex-demo/behavior-core";
+import {
+  Autobinding,
+  CostType,
+  Cpc,
+  Cpm,
+  Req,
+  Subscribtion,
+} from "@statex-demo/behavior-domain";
 
 type Event = any;
 interface SharedContext {}

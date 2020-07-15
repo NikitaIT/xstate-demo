@@ -7,6 +7,6 @@
   },
   "references": [
     { "path": "../behavior-core" },
-    { "path": "../behavior-domain" }
+    { "path": "../math" }
   ]
 }
